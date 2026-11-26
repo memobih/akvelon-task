@@ -1,0 +1,13 @@
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+# Google C# Style Guide brace formatting (K&R style)
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+csharp_prefer_braces = true:suggestion
